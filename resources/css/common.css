@@ -1,0 +1,24 @@
+body {
+    min-width: 400px;
+    width: auto !important;
+}
+
+.jumbotron, .list-inline {
+    margin-bottom: 0px;
+}
+
+.text-over-image {
+    text-align: center;
+    background-position: center;
+    font-weight: bolder;
+}
+
+.page-block {
+    min-height: 250px;
+    padding: 40px;
+    text-align: left;
+}
+
+.code-block {
+    font-weight: bolder;
+}
