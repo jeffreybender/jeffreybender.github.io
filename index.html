@@ -19,13 +19,14 @@
 
     <title>Jeffrey Bender</title>
 
-    <link rel="stylesheet" href="resources/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="resources/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="resources/css/common.css">
+    <link rel="stylesheet" href="/resources/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/resources/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/resources/css/common.css">
+    <link rel="stylesheet" href="/resources/css/index.css">
 </head>
 
 <body>
-    <div class="jumbotron jumbotron-fluid" style="height: 100px;">
+    <div class="jumbotron jumbotron-fluid" style="height: 100px; padding: 1.5rem 1rem;">
         <div class="container text-center">
             <h1>Jeffrey <span>
                     <img src="/resources/images/logo.svg" style="width: 50px; height: 50px;" /></span>
@@ -34,42 +35,42 @@
         </div>
     </div>
     <div class="jumbotron jumbotron-fluid text-over-image"
-        style="background-image: url('resources/images/code.jpg'); background-size: cover; background-position: 0 85%;">
+        style="background-image: url('/resources/images/code.jpg'); background-size: cover; background-position: 0 85%;">
         <code style="color: white; font-size: 30px;">Software Developer</code>
     </div>
     <div class="fa-3x" style="background-color: darkslategray; text-align: center; color: white;">
         <ul class="list-inline">
             <li class="list-inline-item">
                 <i class="fab fa-java"></i>
-                <p style="font-size: x-small;">Java</p>
+                <p class="list-icon-description">Java</p>
             </li>
             <li class="list-inline-item">
                 <i class="fab fa-js-square"></i>
-                <p style="font-size: x-small;">JavaScript</p>
+                <p class="list-icon-description">JavaScript</p>
             </li>
             <li class="list-inline-item">
                 <i class="fas fa-database"></i>
-                <p style="font-size: x-small;">SQL</p>
+                <p class="list-icon-description">SQL</p>
             </li>
             <li class="list-inline-item">
                 <i class="fab fa-python"></i>
-                <p style="font-size: x-small;">Python</p>
+                <p class="list-icon-description">Python</p>
             </li>
             <li class="list-inline-item">
                 <i class="fab fa-php"></i>
-                <p style="font-size: x-small;">PHP</p>
+                <p class="list-icon-description">PHP</p>
             </li>
             <li class="list-inline-item">
                 <i class="fab fa-r-project"></i>
-                <p style="font-size: x-small;">R</p>
+                <p class="list-icon-description">R</p>
             </li>
             <li class="list-inline-item">
                 <i class="fab fa-html5"></i>
-                <p style="font-size: x-small;">HTML</p>
+                <p class="list-icon-description">HTML</p>
             </li>
             <li class="list-inline-item">
                 <i class="fab fa-css3"></i>
-                <p style="font-size: x-small;">CSS</p>
+                <p class="list-icon-description">CSS</p>
             </li>
         </ul>
     </div>
@@ -103,6 +104,23 @@ public String[] getDevelopmentSkills() {
                 </span>
             </div>
         </div>
+    </div>
+    <div class="container-fluid text-center" style="background-color: cadetblue;">
+        <h4>Check me out on:</h4>
+        <ul class="list-inline" style="font-size: 30px;">
+            <li class="list-inline-item personal-link-icon">
+                <a href="https://github.com/jeffreybender" class="link-no-decoration">
+                    <i class="fab fa-github"></i>
+                    <p class="list-icon-description">GitHub</p>
+                </a>
+            </li>
+            <li class="list-inline-item personal-link-icon">
+                <a href="https://stackoverflow.com/users/2464528/cbender" class="link-no-decoration">
+                    <i class="fab fa-stack-overflow"></i>
+                    <p class="list-icon-description">Stack Overflow</p>
+                </a>
+            </li>
+        </ul>
     </div>
 </body>
 

@@ -17,3 +17,13 @@
 .code-block {
     font-weight: bolder;
 }
+
+.link-no-decoration {
+    text-decoration: none;
+    color: initial;
+}
+
+.link-no-decoration:hover {
+    text-decoration: none;
+    color: initial;
+}
